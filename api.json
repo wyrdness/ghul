@@ -1,10 +1,8 @@
 {
-  "category": "DEMON_ANGEL/UNDEAD",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/ghul",
     "maintainers": [
       {
@@ -16,274 +14,113 @@
     "license": {
       "data": "CC0-1.0",
       "content": "CC-BY-4.0"
-    },
-    "cultural_sensitivity": {
-      "alert": "MODERATE",
-      "notice": "This represents Arabic/Islamic cultural tradition. Approach with respect for cultural and religious context.",
-      "guidelines": [
-        "Recognize Arabic/Islamic cultural origins",
-        "Understand religious context in Islamic tradition",
-        "Avoid stereotyping or sensationalizing",
-        "Respect cultural knowledge"
-      ]
     }
   },
-
   "phenomenon": {
     "id": "ghul",
     "name": "Ghul",
-    "aliases": [
-      {
-        "name": "Ghūl",
-        "language": "Arabic",
-        "notes": "Original Arabic with diacritics"
-      },
-      {
-        "name": "Ghula",
-        "language": "Arabic",
-        "notes": "Female form"
-      },
-      {
-        "name": "Ghoul",
-        "language": "English",
-        "notes": "Anglicized form; Western adaptation differs from original"
-      }
-    ],
-    "category": "DEMON_ANGEL/UNDEAD",
-    "subcategory": "Demonic Entity",
+    "aliases": [],
+    "category": "OF_SMOKELESS_FIRE_BEINGS",
+    "subcategory": "of jinn",
     "tags": [
-      "arabic",
-      "islamic",
-      "demon",
-      "jinn",
-      "shape-shifter",
-      "graveyard",
-      "desert",
-      "corpse-eater"
+      "folklore",
+      "mythology"
     ],
-    "status": "traditional_folklore",
+    "status": "documented",
     "description": {
-      "summary": "Arabic demon or monster from Islamic and pre-Islamic folklore. Graveyard-dwelling, shape-shifting creature that lures travelers, eats corpses, and takes beautiful or demonic forms. Type of jinn classified as demonic/evil.",
-      "full": "The Ghul (Arabic: غول) is a demon or monster from Arabic and Islamic tradition, known for dwelling in graveyards, luring travelers in the desert, and consuming corpses and human flesh. In Islamic tradition, the Ghul is classified as a type of jinn - a being made of smokeless fire with free will, but one that has chosen evil. The creature is capable of shape-shifting, often appearing as a beautiful woman (Ghula) to lure victims, or manifesting in demonic, terrifying form. Ghuls inhabit desolate places - graveyards, ruins, and desert wildernesses - and are known to ambush travelers, lead them astray, and devour them. The Ghul can be defeated by striking it twice in the same spot, or through decapitation. The Arabic word 'ghūl' is the etymological root of the English word 'ghoul,' though the Western concept has diverged significantly from the original Arabic tradition."
+      "summary": "The **Ghul** (Arabic: غول, *ghūl*) is a demon or monster from Arabic and Islamic tradition, known for dwelling in graveyards, luring travelers in the desert, and consuming corpses and human flesh.",
+      "full": "The **Ghul** (Arabic: غول, *ghūl*) is a demon or monster from Arabic and Islamic tradition, known for dwelling in graveyards, luring travelers in the desert, and consuming corpses and human flesh. In Islamic tradition, the Ghul is classified as a type of **jinn** - a being created from smokeless fire with free will, but one that has chosen evil. The creature is capable of shape-shifting, often appearing as a beautiful woman (*Ghula*) to lure victims, or manifesting in demonic, terrifying form. Ghuls inhabit desolate places - graveyards, ruins, and desert wildernesses - and are known to ambush travelers, lead them astray, and devour them."
     },
     "etymology": {
-      "origin": "Arabic غول (ghūl), from root غ-و-ل (gh-w-l) meaning 'to seize' or 'to snatch'",
-      "meaning": "Seizer, snatcher - one who seizes/devours",
-      "english_influence": "Root of English 'ghoul' (though Western meaning has shifted)"
+      "origin": "| Arabic/Islamic |",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "DEMON_ANGEL/UNDEAD",
-      "type": "Demonic Entity",
-      "subtype": "Jinn (Evil)",
-      "variant": "Arabic/Islamic"
+      "category": "OF_SMOKELESS_FIRE_BEINGS",
+      "type": "of jinn",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "category",
-        "description": "Ghul is a type of jinn, specifically evil-aligned"
-      },
-      {
-        "id": "ifrit",
-        "name": "Ifrit",
-        "relationship": "related",
-        "description": "Another powerful, often evil type of jinn"
-      },
-      {
-        "id": "djinn",
-        "name": "Djinn",
-        "relationship": "category",
-        "description": "General category of which Ghul is a type"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "Shape-shifter; can appear as beautiful woman or demonic creature",
-      "features": [
-        {
-          "feature": "Shape-shifting",
-          "description": "Can take various forms to deceive victims",
-          "frequency": "always",
-          "forms": ["Beautiful woman (Ghula)", "Demonic creature", "Animal forms"]
-        },
-        {
-          "feature": "Demonic appearance",
-          "description": "True form is monstrous and terrifying",
-          "frequency": "when revealed"
-        }
-      ],
-      "morphology": "Jinn nature - made of smokeless fire, but often takes physical form"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Takes different forms to lure and deceive",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Superhuman strength",
-        "description": "Possesses strength beyond humans",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Regeneration",
-        "description": "Can heal from wounds unless specific weaknesses exploited",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Deception",
-        "description": "Lures travelers astray in desert",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent",
-      "habitat_preference": [
-        "graveyards",
-        "desert wilderness",
-        "ruins",
-        "isolated places"
-      ],
-      "diet": "Corpses, human flesh, travelers",
-      "patterns": [
-        "Ambushes travelers in desert",
-        "Lures victims using beautiful form",
-        "Dwells in graveyards and eats corpses",
-        "Leads travelers astray to their death"
-      ]
-    },
-    "weaknesses": [
-      {
-        "weakness": "Strike twice same spot",
-        "description": "Hitting the Ghul twice in the same location can kill it",
-        "source": "Traditional lore"
-      },
-      {
-        "weakness": "Decapitation",
-        "description": "Beheading destroys the Ghul",
-        "source": "Traditional lore"
-      }
-    ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
   "distribution": {
     "range": {
-      "description": "Arabic and Islamic folklore; primarily Middle East, North Africa, and regions with Islamic cultural influence",
-      "continents": ["Asia", "Africa"],
-      "countries": ["Saudi Arabia", "Iraq", "Egypt", "Syria", "Iran", "and other Middle Eastern and North African nations"],
-      "regions": [
-        "Arabian Peninsula",
-        "Levant",
-        "Mesopotamia",
-        "North Africa",
-        "Persia"
-      ]
+      "description": "| Arabic/Islamic |",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_distribution": {
-      "primary": "Arabic and Islamic cultures",
-      "influence": "Spread with Islam and Arabic culture; influenced Western 'ghoul' concept"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Pre-Islamic and Islamic Arabic folklore; one of the earliest documented monsters in Arabic literature",
-      "earliest_accounts": "Pre-Islamic Arabian folklore; formalized in Islamic tradition and Arabian Nights",
-      "religious_context": "In Islamic tradition, classified as a type of jinn - created from smokeless fire, possessing free will, but evil-aligned"
+      "cultural_roots": "| Arabic/Islamic |",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-Islamic",
-        "event": "Ghul in Arabian folklore",
-        "significance": "Predates Islam; part of Arabian desert mythology",
-        "source": "Pre-Islamic Arabian poetry and oral tradition"
-      },
-      {
-        "date": "7th century CE",
-        "event": "Formalized in Islamic tradition",
-        "significance": "Incorporated into Islamic understanding of jinn",
-        "source": "Islamic theological texts"
-      },
-      {
-        "date": "8th-14th centuries",
-        "event": "Arabian Nights stories",
-        "significance": "Ghul appears in One Thousand and One Nights tales",
-        "source": "Arabian Nights literature"
-      },
-      {
-        "date": "18th-19th centuries",
-        "event": "Introduction to West",
-        "significance": "Arabic tales translated; 'ghoul' enters English language",
-        "source": "European translations of Arabian texts"
-      }
-    ],
-    "modern_era": "The Ghul remains part of Arabic and Islamic folklore. Western 'ghoul' has diverged significantly, often depicted as undead corpse-eater rather than shape-shifting jinn."
+    "timeline": []
   },
-
-  "cultural_context": {
-    "islamic_tradition": {
-      "classification": "Type of jinn - created from smokeless fire",
-      "nature": "Possesses free will but chooses evil",
-      "theological_significance": "Represents evil choice among jinn; cautionary figure",
-      "religious_texts": "Mentioned in Islamic theological discussions of jinn"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "arabian_nights": {
-      "role": "Appears in multiple tales as antagonist",
-      "stories": "Various stories of travelers encountering Ghul in desert",
-      "literary_significance": "Helped spread concept beyond Arabic culture"
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "folklore_function": {
-      "warnings": [
-        "Don't travel alone in desert at night",
-        "Be wary of strangers in isolated places",
-        "Danger of straying from safe paths"
-      ],
-      "symbolism": "Desert dangers, death, deception, greed"
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "cultural_sensitivity": {
-    "respect_guidelines": [
-      "Recognize Arabic/Islamic cultural origins",
-      "Understand religious context - part of Islamic theology of jinn",
-      "Avoid conflating with Western 'ghoul' concept",
-      "Respect as part of living cultural tradition",
-      "Don't sensationalize or use to perpetuate stereotypes"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "western_influence": {
-    "etymology": "Arabic ghūl → English 'ghoul'",
-    "divergence": "Western 'ghoul' became associated with grave-robbing undead, diverging from original shape-shifting jinn concept",
-    "popular_culture": "Western depictions often lose original Arabic/Islamic context"
-  },
-
-  "sources": [
-    {
-      "id": "arabian-nights",
-      "type": "literature",
-      "title": "One Thousand and One Nights",
-      "date": "8th-14th centuries",
-      "notes": "Collection of Middle Eastern folk tales"
-    },
-    {
-      "id": "lane-lexicon",
-      "type": "reference",
-      "title": "Arabic-English Lexicon",
-      "authors": ["Edward William Lane"],
-      "date": "1863-1893",
-      "notes": "Authoritative Arabic dictionary defining ghūl"
-    }
-  ]
+  "sources": []
 }
