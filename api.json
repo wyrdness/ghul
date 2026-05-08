@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ghul",
     "maintainers": [
       {
@@ -19,68 +19,134 @@
   "phenomenon": {
     "id": "ghul",
     "name": "Ghul",
-    "aliases": [],
-    "category": "OF_SMOKELESS_FIRE_BEINGS",
-    "subcategory": "of jinn",
+    "aliases": [
+      { "name": "Ghoul", "language": "English", "meaning": "Anglicization of ghul; first attested in English in William Beckford's Vathek (1786)" },
+      { "name": "غول (ghūl)", "language": "Arabic", "meaning": "from ghāla, 'to seize'" },
+      { "name": "Ghula / Ghulah", "language": "Arabic", "meaning": "female form" },
+      { "name": "Si'lat / Si'la", "language": "Arabic", "region": "Pre-Islamic and early Islamic Arabia", "meaning": "shape-shifting female demon often paired with the ghul" },
+      { "name": "Ghul-e Biyaban", "language": "Persian", "region": "Iran, Afghanistan, Central Asia", "meaning": "ghoul of the wilderness" }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Cannibal jinn / desert demon",
     "tags": [
-      "folklore",
-      "mythology"
+      "jinn",
+      "arabic-folklore",
+      "islamic-folklore",
+      "shape-shifter",
+      "cannibal",
+      "graveyard",
+      "desert",
+      "near-east"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Ghul** (Arabic: غول, *ghūl*) is a demon or monster from Arabic and Islamic tradition, known for dwelling in graveyards, luring travelers in the desert, and consuming corpses and human flesh.",
-      "full": "The **Ghul** (Arabic: غول, *ghūl*) is a demon or monster from Arabic and Islamic tradition, known for dwelling in graveyards, luring travelers in the desert, and consuming corpses and human flesh. In Islamic tradition, the Ghul is classified as a type of **jinn** - a being created from smokeless fire with free will, but one that has chosen evil. The creature is capable of shape-shifting, often appearing as a beautiful woman (*Ghula*) to lure victims, or manifesting in demonic, terrifying form. Ghuls inhabit desolate places - graveyards, ruins, and desert wildernesses - and are known to ambush travelers, lead them astray, and devour them."
+      "summary": "A demonic, shape-shifting being of pre-Islamic Arabian and Islamic folklore, classed as a type of jinn, said to dwell in graveyards, deserts, and ruined places, lure travelers from their path, and consume corpses and human flesh.",
+      "full": "The ghul (Arabic: غول, ghūl; feminine ghula/ghulah) is a demonic creature originating in pre-Islamic Arabian religion and continuing through Islamic folklore. Although the ghul is not named in the Qur'an, it appears in hadith literature, in pre-Islamic poetry, and across the wider Arabic and Persian narrative tradition, including 'One Thousand and One Nights'. In Islamic tradition the ghul is classed as a type of jinn — a being created from smokeless fire — that has chosen evil. Ghuls inhabit deserts, graveyards, and ruined places, and are said to lure travellers from their path, kill and devour them, prey on children, drink blood, and consume corpses. They are reputed shape-shifters, often appearing as a beautiful woman ('Mother Ghoul') or as a familiar relative; female ghuls are said to assume the form of the ghul's most recent victim. Pre-Islamic poets including Ta'abbata Sharra describe encounters and combats with ghuls, and Al-Mas'udi reports that the caliph 'Umar killed one in Syria. Al-Jahiz (9th century) was a major sceptic of the tradition, and the rationalist Mu'tazila school denied ghouls' existence outright. The English word 'ghoul' derives from ghul through Antoine Galland's French translation of the Nights and William Beckford's Gothic novel 'Vathek' (1786); H. P. Lovecraft and later authors recast it as a subterranean corpse-eating creature."
     },
     "etymology": {
-      "origin": "| Arabic/Islamic |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Arabic غول (ghūl), from the root غ-و-ل / ghāla, 'to seize, snatch, attack unexpectedly'.",
+      "meaning": "Literally 'seizer' or 'snatcher'; metaphorically a sudden calamity that destroys travelers.",
+      "first_use": "Pre-Islamic Arabic poetry (e.g. Ta'abbata Sharra, late 6th century AD); attested in English from 1786 (Beckford, Vathek)."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "OF_SMOKELESS_FIRE_BEINGS",
-      "type": "of jinn",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UNDEAD",
+      "type": "Cannibal demon",
+      "subtype": "Jinn (in Islamic tradition)",
+      "variant": "Arabian / Persian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "djinn", "name": "Djinn / Jinn", "relationship": "superset", "description": "Ghuls are classed as a type of jinn in Islamic tradition" },
+      { "id": "jinn", "name": "Jinn", "relationship": "superset", "description": "Same — broader category to which ghuls belong" },
+      { "id": "ifrit", "name": "Ifrit", "relationship": "related", "description": "Another powerful class of jinn in Arabic and Islamic tradition" },
+      { "id": "marid", "name": "Marid", "relationship": "related", "description": "Powerful class of jinn associated with the sea" },
+      { "id": "vampires", "name": "Vampires", "relationship": "similar", "description": "Blood-drinking, corpse-eating undead with cross-cultural parallels" },
+      { "id": "wendigo", "name": "Wendigo", "relationship": "similar", "description": "Cannibal monster of Algonquian folklore — shared cannibalism motif" },
+      { "id": "gello", "name": "Gello", "relationship": "related", "description": "Greek child-killing demon; argued by some scholars (Frank, Burkert, West) to share a Mesopotamian Gallû etymology with ghul" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Shape-shifting", "description": "Can take the form of a beautiful woman, an elderly relative, or animals — often a hyena", "frequency": "always" },
+        { "feature": "Hooves or animal feet", "description": "In some traditions retains hoofed feet (e.g. donkey or hyena) when in human form, betraying its true nature", "frequency": "common" },
+        { "feature": "Monstrous true form", "description": "When unmasked, described as ugly, fanged, with claws and animal features", "frequency": "common" },
+        { "feature": "Female 'Mother Ghoul' appearance", "description": "Often appears as a lone woman or 'mother' figure to lure male travelers", "frequency": "common" },
+        { "feature": "Assumes the form of victims", "description": "Said to take on the appearance of the most recently devoured victim", "frequency": "occasional" }
+      ],
+      "morphology": "Ghuls are described as inherently shape-shifters; their 'true' form is monstrous (fanged, clawed, animalistic), but they typically appear as humans (often women) or as animals (especially hyenas)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shape-shifting", "description": "Takes human or animal form to deceive travelers", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Luring victims into wilderness", "description": "Calls to travelers, mimics familiar voices, leads them away from their path", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Cannibalism / corpse-eating", "description": "Devours human flesh, including freshly killed victims and exhumed corpses", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Blood-drinking", "description": "Said to drink the blood of victims", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Conversion to Islam (in Islamic tradition)", "description": "Uniquely among Islamic demons, ghuls are said to be capable of converting to Islam upon hearing the Throne Verse of the Qur'an", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Repelled by the call to prayer", "description": "Al-Damiri's hadith collection records that travelers can escape ghuls by reciting the adhan (call to prayer)", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["deserts and wastelands", "graveyards", "abandoned ruins", "lonely roads"],
+      "diet": "Human flesh (living and dead), corpses, blood; in some accounts, also sheep and goats",
+      "patterns": [
+        "Ambushes lone travelers, especially men",
+        "Often appears as a woman ('Mother Ghoul') in distress to lure rescuers",
+        "Inhabits liminal spaces — desert, graveyard, ruin",
+        "Avoids sunlight in some traditions (Al-Dimashqi)"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "| Arabic/Islamic |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The ghul belongs to Arab, Persian, and broader Islamic folklore. Reports and traditions extend across the Arabian Peninsula, the Levant, Mesopotamia, North Africa, the Maghreb, Iran, Afghanistan, and Central and South Asia, with regional cognates and equivalents elsewhere in the Islamic world.",
+      "continents": ["Asia", "Africa"],
+      "countries": ["Saudi Arabia", "Yemen", "Iraq", "Syria", "Lebanon", "Jordan", "Egypt", "Iran", "Afghanistan", "Pakistan", "Morocco", "Algeria", "Tunisia"],
+      "regions": ["Arabian Peninsula", "Levant", "Mesopotamia", "Maghreb", "Iranian plateau", "Central Asia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Arabian deserts",
+        "location": {
+          "description": "Wastelands and abandoned ruins of pre-Islamic Arabia; archetypal habitat in early poetry and hadith",
+          "country": "Saudi Arabia",
+          "region": "Arabian Peninsula"
+        },
+        "peak_period": "Pre-Islamic – early Islamic period",
+        "notes": "Setting of the Ta'abbata Sharra ghul-combat poem and of 'Umar's reported encounter in Syria"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0570-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Pre-Islamic Arabic poetry attributed to Ta'abbata Sharra (late 6th century AD)"
+      },
+      "peak_activity_periods": [
+        { "period": "6th–9th centuries AD", "description": "Pre-Islamic poetry and early Islamic hadith, including reports by Al-Mas'udi and Al-Jahiz" },
+        { "period": "9th–14th centuries AD", "description": "Codification in Islamic literature (Al-Damiri's Hayat al-Hayawan, Al-Dimashqi) and incorporation in 'One Thousand and One Nights'" }
+      ],
+      "seasonal_patterns": "No specific seasonal pattern documented; particularly associated with night travel through wilderness."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "| Arabic/Islamic |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Islamic Arabian religion and folklore. Possibly cognate with the Akkadian Gallû (an underworld demon) — a connection also proposed for Greek Gello.",
+      "earliest_accounts": "Pre-Islamic Arabic poetry (late 6th century AD), including a poem attributed to Ta'abbata Sharra describing his slaying of a ghul; later doubted by Al-Jahiz.",
+      "folklore_connections": "Closely linked to the broader jinn complex of Arabic folklore and to wider Near Eastern traditions of corpse-devouring and child-killing demons (Lilith, Gello, Lamashtu)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0570-01-01", "event": "Pre-Islamic poet Ta'abbata Sharra describes his combat with a ghul", "significance": "Earliest extant literary attestation", "source": "Pre-Islamic Arabic poetry; Wikipedia, Ghoul" },
+      { "date": "0644-01-01", "event": "Al-Mas'udi's later report that the second caliph 'Umar ibn al-Khattab killed a ghul with his sword while traveling in Syria", "significance": "Famous ghul-related anecdote in early Islamic historiography", "source": "Al-Mas'udi, Muruj al-Dhahab" },
+      { "date": "0850-01-01", "event": "Al-Jahiz (Kitab al-Hayawan) sceptically discusses the ghul tradition", "significance": "Earliest major rationalist critique of ghul belief", "source": "Al-Jahiz, Kitab al-Hayawan" },
+      { "date": "1372-01-01", "event": "Al-Damiri's Hayat al-Hayawan ('Lives of Animals') records hadiths in which travelers escape ghuls by reciting the adhan", "significance": "Major medieval encyclopaedic treatment of the ghul", "source": "Al-Damiri, Hayat al-Hayawan" },
+      { "date": "1704-01-01", "event": "Antoine Galland's French translation of 'One Thousand and One Nights' (1704–1717) introduces ghuls to Western readers", "significance": "First sustained European exposure to the ghul tradition", "source": "Galland, Les Mille et Une Nuits" },
+      { "date": "1786-01-01", "event": "William Beckford publishes the Gothic novel 'Vathek', introducing 'ghoul' to English", "significance": "First attested English use of 'ghoul'", "source": "Wikipedia, Ghoul" },
+      { "date": "1927-01-01", "event": "H. P. Lovecraft's 'Pickman's Model' published, recasting the ghoul as a subterranean corpse-eating creature", "significance": "Basis for the modern Anglophone fantasy/horror ghoul archetype", "source": "Lovecraft, H. P. (1927), Pickman's Model" }
+    ],
+    "modern_era": "The ghul remains an active part of Arabic, Persian, and broader Islamicate folklore, periodically featuring in regional horror cinema (e.g. Egyptian and Saudi productions). In Anglophone popular culture, the post-Lovecraftian ghoul has largely displaced the original Arabic figure, especially in fantasy gaming (Dungeons & Dragons, Fallout) and horror fiction."
   },
   "sightings": {
     "statistics": {
@@ -97,30 +163,114 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ghul-evidence-pre-islamic-poetry",
+        "type": "literary tradition",
+        "name": "Pre-Islamic Arabic poetry on the ghul",
+        "description": "Body of pre-Islamic Arabic poetry describing encounters and combats with ghuls, including verses attributed to Ta'abbata Sharra.",
+        "status": "verified",
+        "analysis": "Discussed and partly disputed by Al-Jahiz (9th century) in Kitab al-Hayawan.",
+        "source": "Pre-Islamic Arabic poetry; Wikipedia, Ghoul"
+      },
+      {
+        "id": "ghul-evidence-hadith",
+        "type": "hadith",
+        "name": "Hadith literature on ghuls",
+        "description": "Hadith collections and later commentaries (Al-Damiri's Hayat al-Hayawan, c. 14th century) preserving traditions of ghuls, their habits, and apotropaic recitations.",
+        "status": "verified",
+        "analysis": "Standard medieval Islamic source-corpus for the ghul tradition.",
+        "source": "Al-Damiri, Hayat al-Hayawan"
+      },
+      {
+        "id": "ghul-evidence-1001-nights",
+        "type": "literature",
+        "name": "One Thousand and One Nights",
+        "description": "Multiple tales (e.g. 'The Story of Sidi Nu'man') feature ghuls and ghulas, especially women revealed as corpse-eating demons.",
+        "status": "verified",
+        "analysis": "Vehicle for Western diffusion of the ghul through Galland's 1704–1717 French translation.",
+        "source": "One Thousand and One Nights, various editions"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Ghul as a type of jinn",
+        "description": "Mainstream Islamic interpretation: the ghul is a real but invisible class of jinn, created of smokeless fire and morally responsible.",
+        "proponents": ["Al-Damiri", "Classical Sunni hadith scholars"],
+        "evidence_cited": ["Hadith reports", "'Umar's encounter as reported by Al-Mas'udi"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Mu'tazilite / rationalist denial",
+        "description": "The Mu'tazilite school and Al-Jahiz argued that ghul stories are exaggeration, misperception, or poetic invention rather than reports of real beings.",
+        "proponents": ["Al-Jahiz", "Mu'tazila theologians"],
+        "evidence_cited": ["Inconsistencies between accounts", "Sober rationalist hermeneutics"]
+      },
+      {
+        "name": "Folklore explanation: hyenas, brigands, and disorientation",
+        "description": "Modern scholarly explanation: ghul stories encode the real dangers of nocturnal desert travel — hyenas (which can scavenge corpses and laugh-call), brigands, and the disorientation of getting lost. The 1667 hyena attack at Mecca was locally attributed to a ghul.",
+        "proponents": ["Modern folklorists and historians of Arabic folklore"],
+        "evidence_cited": ["Documented hyena scavenging in Arabian wilderness", "Frequency of ghul stories along desert travel routes"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Arabic and Persian folklore traditions of desert and graveyard demons",
+        "Apotropaic practices: reciting the adhan and Throne Verse to drive off ghuls"
+      ],
+      "stories": [
+        "Ta'abbata Sharra and the ghul (pre-Islamic poetry)",
+        "Caliph 'Umar's reported slaying of a ghul in Syria (Al-Mas'udi)",
+        "'The Story of Sidi Nu'man' and other ghul tales in One Thousand and One Nights",
+        "Persian Ghul-e Biyaban tales of Iran and Afghanistan"
+      ],
+      "beliefs": "The ghul is widely understood in Arabic and Islamic folklore as a real (though invisible or shape-shifting) jinn-class demon haunting deserts and graveyards. Apotropaic practices include reciting the adhan and Qur'anic verses, and avoiding solitary night travel through wild places."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Antoine Galland (trans.) — Les Mille et Une Nuits (1704–1717)",
+        "William Beckford — Vathek (1786)",
+        "H. P. Lovecraft — Pickman's Model (1927); The Dream-Quest of Unknown Kadath (1943)",
+        "Clark Ashton Smith — The Ghoul (1934)"
+      ],
+      "film_tv": [
+        "The Ghoul (1933, Boris Karloff)",
+        "The Ghoul (1975, Tyburn Films)",
+        "Multiple regional Arab horror productions"
+      ],
+      "games": [
+        "Dungeons & Dragons — ghouls (1974–)",
+        "Fallout series — ghouls (1997–)",
+        "Various Middle Eastern-themed horror games"
+      ],
+      "other": [
+        "Modern Arab popular culture: ghul as a stock figure in horror fiction and children's tales"
+      ]
     }
   },
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Al-Mas'udi", "affiliation": "10th-century Arab historian and geographer", "contribution": "Reports caliph 'Umar's killing of a ghul in Syria (Muruj al-Dhahab)", "period": "10th century" },
+      { "name": "Al-Jahiz", "affiliation": "9th-century Mu'tazilite polymath", "contribution": "Earliest major sceptical analysis of the ghul tradition (Kitab al-Hayawan)", "period": "9th century" },
+      { "name": "Al-Damiri", "affiliation": "14th-century Egyptian zoologist and hadith scholar", "contribution": "Major encyclopaedic treatment of ghuls in Hayat al-Hayawan", "period": "14th century" },
+      { "name": "Dwight F. Reynolds", "affiliation": "University of California, Santa Barbara (Arabic literature)", "contribution": "Modern scholarly analysis of female ghul figures and 'Mother Ghoul' stories", "period": "1990s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continuing scholarship on Arabic folklore and the jinn complex, including ghuls, in regional studies departments worldwide."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-ghoul", "type": "website", "title": "Ghoul", "url": "https://en.wikipedia.org/wiki/Ghoul", "accessed": "2026-05-07" },
+    { "id": "al-damiri-hayat", "type": "book", "title": "Hayat al-Hayawan al-Kubra (The Lives of Animals)", "authors": ["Kamal al-Din al-Damiri"], "date": "1372" },
+    { "id": "al-jahiz-hayawan", "type": "book", "title": "Kitab al-Hayawan (The Book of Animals)", "authors": ["Al-Jahiz"], "date": "0850" },
+    { "id": "al-masudi-muruj", "type": "book", "title": "Muruj al-Dhahab wa Ma'adin al-Jawhar (The Meadows of Gold and Mines of Gems)", "authors": ["Al-Mas'udi"], "date": "0947" },
+    { "id": "beckford-1786", "type": "book", "title": "Vathek", "authors": ["William Beckford"], "publication": "London", "date": "1786" },
+    { "id": "lovecraft-1927", "type": "article", "title": "Pickman's Model", "authors": ["H. P. Lovecraft"], "publication": "Weird Tales", "date": "1927" }
+  ]
 }
